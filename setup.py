@@ -6,8 +6,8 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 DESCRIPTION = "Jupyter static interactive figures"
-LONG_DESCRIPTION=long_description,
-LONG_DESCRIPTION_CONTENT_TYPE='text/markdown'
+LONG_DESCRIPTION = long_description,
+LONG_DESCRIPTION_CONTENT_TYPE = 'text/markdown'
 NAME = "staticinteract"
 AUTHOR = "Semidan Robaina, Jake VanderPlas"
 AUTHOR_EMAIL = "srobaina@ull.edu.es"
@@ -15,12 +15,13 @@ MAINTAINER = "Semidan Robaina"
 MAINTAINER_EMAIL = "srobaina@gmail.com"
 DOWNLOAD_URL = 'http://github.com/robaina/staticInteract'
 LICENSE = 'BSD'
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 
 setup(name=NAME,
       version=VERSION,
       description=DESCRIPTION,
       long_description=LONG_DESCRIPTION,
+      long_description_content_type=LONG_DESCRIPTION_CONTENT_TYPE,
       author=AUTHOR,
       author_email=AUTHOR_EMAIL,
       maintainer=MAINTAINER,
